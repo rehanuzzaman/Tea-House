@@ -4,8 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tea House</title>
+    <!--Goole Font CDN-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!--Font Awesome CDN-->
+    <script src="https://kit.fontawesome.com/30ad6389ff.js" crossorigin="anonymous"></script>
+    <!--Tailwind CDN-->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
+        <header class="flex pt-10 mb-20">
+            <div>
+                <h1 class="text-5xl md:text-7xl">
+                    It's good<br>tea time at<br>The Tea House
+                </h1>
+                <br>
+                <p class="text-gray-500 w-3/4">
+                    Tea and Botanical Solutions Supplier Give Optimum Satisfaction to Your Taste Buds.
+                </p>
+                <br>
+                <button class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-3 rounded-lg text-white font-bold">
+                    Explore More <i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i>
+                </button>
+            </div>
+            <div>
+                <div class="relative">
+                    <img class="w-full" src="./images/banner.png" alt="Teas">
+                </div>
+                <div class="absolute flex justify-center items-center bg-white shadow-lg px-2 py-2 md:px-10 py-4 rounded-lg top-28 md:top-28 md:left-32 lg:left-28">
+                    <div>
+                        <i class="fa-solid fa-star text-2xl text-yellow-400"></i>
+                    </div>
+                    <div class="ms-2">
+                        <h2 class="lg:text-2xl font-bold">
+                            5.00
+                        </h2>
+                        <p class="text-gray-500">
+                            Trust Pilot Rating
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </main>
 </body>
 </html>
